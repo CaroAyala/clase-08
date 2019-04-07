@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width>, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Mobile</title>
+    <style>
+
+    /* html 5 viene con styles por defecto, asi se sacan */
+    :root,
+      html,
+      body {
+        margin: 0;
+        padding: 0;
+        height: 100vh;
+    }    
+
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+    }    
+    
+    header {
+
+        background-color: blue;
+        font:bold;
+        color: azure;
+        padding: 20px;
+
+        
+    }    
+
+     .container {
+        display:flex;
+        flex-direction: row;
+        align-items: flex-start;
+        height: 100vh;
+
+    }
+    </style>
+    
+</head>
+<body>
+<div class="Container">
+    <header>
+    <div class="titulo">
+        <p>Contact US</p>
+    </div>
+    <div class="botonera">
+        <a>HOME</a>
+        <a>ABOUT</a>
+        <a>CONTACT</a>
+    </div>
+    </header>
+    
+    <form>
+    <fieldset>
+        <label for="name">Your Name</label><br>
+        <input class="altura" type="text" placeholder="Jane Doe" /><br>   
+        <label for="email">Email</label><br>
+        <input class="altura" type="email" placeholder="jane@email.com" /><br>
+        <label for="message">Message</label><br>
+        <input class="altura" type="text" placeholder="bla bla bla" /><br>
+    </fieldset>        
+    <button>SEND</button>
+</form>   
+</div> 
+</body>
+</html>
